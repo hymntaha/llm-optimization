@@ -4,3 +4,6 @@ python-dotenv
 langchain_openai
 langchain
 langgraph
+langchain_text_splitters
+langchain_chroma
+langchain_community
