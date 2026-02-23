@@ -1,0 +1,12 @@
+{
+    "predictions": [
+      {"id":"a","y_true":"pos","y_pred":"pos","score":"0.91"},
+      {"id":"b","y_true":"pos","y_pred":"neg","score":0.40},
+      {"id":"c","y_true":"neg","y_pred":"pos","score":0.72},
+      {"id":"d","y_true":"neg","y_pred":"neg","score":0.10},
+      {"id":"e","y_true":"pos","y_pred":"pos","score":0.88},
+      {"id":"bad1","y_true":"maybe","y_pred":"pos","score":0.5},
+      {"id":null,"y_true":"pos","y_pred":"pos","score":0.2}
+    ]
+  }
+  
