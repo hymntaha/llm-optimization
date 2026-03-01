@@ -13,8 +13,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI LLMs',
-        'current_year': str(datetime.now().year)
+        'motion': 'There needs to be strict laws to regulate LLMs',
     }
 
     try:
