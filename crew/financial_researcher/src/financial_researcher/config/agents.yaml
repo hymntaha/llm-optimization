@@ -1,12 +1,14 @@
 researcher:
   role: >
-    {topic} Senior Data Researcher
+    Senior Financial Researcher for {company}
   goal: >
-    Uncover cutting-edge developments in {topic}
+    Research the company, latest news and potential for {company}
   backstory: >
-    You're a seasoned researcher with a knack for uncovering the latest
-    developments in {topic}. Known for your ability to find the most relevant
+    You're a seasoned financial researcher with a knack for finding
+    the most relevant information about {company}.
+    Known for your ability to find the most relevant
     information and present it in a clear and concise manner.
+  llm: openai/gpt-4o-mini
 
 reporting_analyst:
   role: >
