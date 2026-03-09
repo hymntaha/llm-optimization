@@ -1,14 +1,10 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-from crewai.agents.agent_builder.base_agent import BaseAgent
-from typing import List
 
 @CrewBase
 class FinancialResearcher():
-    """FinancialResearcher crew"""
-
-    agents: List[BaseAgent]
-    tasks: List[Task]
+    agents:'config/agents.yaml'
+    tasks: 'config/tasks.yaml'
 
     @agent
     def researcher(self) -> Agent:
@@ -28,7 +24,8 @@ class FinancialResearcher():
     def research_task(self) -> Task:
         return Task(
             config=self.tasks_config['research_task'], 
-
+        )
+        
     @task
     def analysis_task(self) -> Task:
         return Task(
