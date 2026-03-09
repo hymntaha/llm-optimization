@@ -4,7 +4,7 @@ import warnings
 from datetime import datetime
 from financial_researcher.crew import FinancialResearcher
 
-warnings.filterwarning
+warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
 def run():
   inputs = {
