@@ -16,7 +16,7 @@ class FinancialResearcher():
     @agent
     def analyst(self) -> Agent:
         return Agent(
-            config=self.agents_config['analyst'], 
+            config=self.agents_config['reporting_analyst'], 
             verbose=True
         )
 
